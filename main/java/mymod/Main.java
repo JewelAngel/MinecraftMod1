@@ -7,6 +7,7 @@ package mymod;
 import org.apache.logging.log4j.Logger;
 
 import mymod.CodakidFiles.Codakid;
+import mymod._01_ForgeYourSword.CustomSword;
 import net.minecraftforge.fml.common.Mod;
 import net.minecraftforge.fml.common.SidedProxy;
 import net.minecraftforge.fml.common.event.FMLInitializationEvent;
@@ -29,7 +30,7 @@ public class Main {
     public static Logger logger;
     
     //************* DECLARE VARIABLES ***************
-    
+    public static CustomSword mySword;
     
 
 
