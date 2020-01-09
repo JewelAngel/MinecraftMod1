@@ -12,7 +12,7 @@ public class CustomSword extends ItemSword {
 	
 	public CustomSword() {
 		
-		super(ToolMaterial.WOOD);
+		super(ToolMaterial.DIAMOND);
 		
 	}
 	
