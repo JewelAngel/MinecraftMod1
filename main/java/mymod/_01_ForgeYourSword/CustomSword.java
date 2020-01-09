@@ -13,6 +13,7 @@ public class CustomSword extends ItemSword {
 	public CustomSword() {
 		
 		super(ToolMaterial.DIAMOND);
+		this.setCreativeTab(CreativeTabs.COMBAT);
 		
 	}
 	
