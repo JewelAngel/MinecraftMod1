@@ -29,7 +29,7 @@ public class CommonProxy {
     	
     	//************* REGISTER MOBS ***************
     	Codakid.registerMobEntity(CustomMonster.class, "my_monster", RenderMonsterPig.FACTORY, Color.BLACK.getRGB(), Color.PINK.getRGB());
-    	EntityRegistry.addSpawn(CustomMonster.class, 20, 0, 3, EnumCreatureType.MONSTER, Biomes.SAVANNA, Biomes.MESA);
+    	EntityRegistry.addSpawn(CustomMonster.class, 20, 0, 3, EnumCreatureType.MONSTER, Biomes.SAVANNA, Biomes.MESA, Biomes.SWAMPLAND);
     	
     	// ************* MAKE RENDERERS ***************
     	
