@@ -53,7 +53,7 @@ public class Main {
     	
     	//************* INITIALIZE VARIABLES ***************
     	mySword = new CustomSword();
-    	
+    	myOre = new CustomOre();
 
     	
     	
