@@ -12,7 +12,8 @@ public class CustomSword extends ItemSword {
 	
 	public CustomSword() {
 		
-		super(ToolMaterial.WOOD);
+		super(Main.myToolMaterial);
+		this.setCreativeTab(CreativeTabs.COMBAT);
 		
 	}
 	

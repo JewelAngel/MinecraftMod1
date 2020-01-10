@@ -7,6 +7,9 @@ package mymod;
 import org.apache.logging.log4j.Logger;
 
 import mymod.CodakidFiles.Codakid;
+import mymod._01_ForgeYourSword.CustomSword;
+import net.minecraft.item.Item.ToolMaterial;
+import net.minecraftforge.common.util.EnumHelper;
 import net.minecraftforge.fml.common.Mod;
 import net.minecraftforge.fml.common.SidedProxy;
 import net.minecraftforge.fml.common.event.FMLInitializationEvent;
@@ -19,7 +22,7 @@ import net.minecraftforge.fml.relauncher.SideOnly;
 public class Main {
 
     public static final String MODID = "foundations";
-    public static final String MODNAME = "YOUR MOD NAME HERE";
+    public static final String MODNAME = "The JAC Mod";
     public static final String VERSION = "0.0.1";
     
     @SidedProxy(clientSide = "mymod.CodakidFiles.ClientProxy", serverSide = "mymod.CodakidFiles.ServerProxy")
@@ -29,7 +32,8 @@ public class Main {
     public static Logger logger;
     
     //************* DECLARE VARIABLES ***************
-    
+    public static CustomSword mySword;
+    public static ToolMaterial myToolMaterial;
     
 
 
@@ -38,10 +42,11 @@ public class Main {
     	logger = event.getModLog();
     	
     	//************* INITIALIZE MATERIALS ***************
-    	
+    	myToolMaterial = EnumHelper.addToolMaterial("Super Stone", 5, 99999, 30F, 999F, 100);
     	
     	
     	//************* INITIALIZE VARIABLES ***************
+    	mySword = new CustomSword();
 
     	
     	

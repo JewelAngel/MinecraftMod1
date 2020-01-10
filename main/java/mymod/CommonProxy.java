@@ -18,7 +18,7 @@ public class CommonProxy {
     public void preInit(FMLPreInitializationEvent e) {
     	
     	//************* REGISTER BLOCKS AND ITEMS ***************
-	    
+	    Codakid.registerItem(Main.mySword, "my_sword");
     	
     	
     	//************* REGISTER MOBS ***************

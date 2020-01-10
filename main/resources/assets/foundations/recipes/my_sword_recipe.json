@@ -7,10 +7,10 @@
   ],
   "key": {
     "m": { 
-      "item": "minecraft:diamond"
+      "item": "minecraft:emerald"
      },
     "h": { 
-      "item": "minecraft:blaze_rod"
+      "item": "minecraft:cobblestone"
      }
   },
   "result": {
