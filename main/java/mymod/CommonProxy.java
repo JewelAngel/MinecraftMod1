@@ -1,6 +1,7 @@
 package mymod;
 
 import mymod.CodakidFiles.Codakid;
+import mymod.CodakidFiles.RenderMonsterPig;
 import net.minecraft.block.Block;
 import net.minecraft.item.Item;
 import net.minecraft.world.biome.Biome;
@@ -22,7 +23,7 @@ public class CommonProxy {
     	
     	
     	//************* REGISTER MOBS ***************
-    	
+    	Codakid.registerMobEntity(CustomMonster.class, "my_monster", RenderMonsterPig.FACTORY, Color.BLACK.getRGB(), Color.MAGENTA.getRGB());
     	
     	
     	// ************* MAKE RENDERERS ***************
