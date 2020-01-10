@@ -42,7 +42,7 @@ public class Main {
     	logger = event.getModLog();
     	
     	//************* INITIALIZE MATERIALS ***************
-    	
+    	myToolMaterial = EnumHelper.addToolMaterial("Super Stone", 5, 99999, 30F, 999F, 100);
     	
     	
     	//************* INITIALIZE VARIABLES ***************
