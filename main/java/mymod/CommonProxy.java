@@ -2,6 +2,7 @@ package mymod;
 
 import mymod.CodakidFiles.Codakid;
 import mymod.CodakidFiles.RenderMonsterPig;
+import mymod._01_ForgeYourSword.CustomMonster;
 import net.minecraft.block.Block;
 import net.minecraft.item.Item;
 import net.minecraft.world.biome.Biome;
