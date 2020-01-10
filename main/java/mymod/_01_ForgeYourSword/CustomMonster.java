@@ -43,9 +43,9 @@ public class CustomMonster extends EntityMob {
 	{
 		super.applyEntityAttributes();
 		
-		this.moveSpeed = 0F;
-		this.attackDamage = 0F;
-		this.health = 0F;
+		this.moveSpeed = 0.2F;
+		this.attackDamage = 2F;
+		this.health = 10F;
 		
 		Codakid.setMovementSpeed(this, this.moveSpeed);
 		Codakid.setAttackDamage(this, this.attackDamage);
