@@ -4,6 +4,8 @@ import mymod.CodakidFiles.Codakid;
 import mymod.CodakidFiles.RenderMonsterPig;
 import mymod._01_ForgeYourSword.CustomMonster;
 import net.minecraft.block.Block;
+import net.minecraft.entity.EnumCreatureType;
+import net.minecraft.init.Biomes;
 import net.minecraft.item.Item;
 import net.minecraft.world.biome.Biome;
 import net.minecraftforge.event.RegistryEvent;
@@ -12,6 +14,8 @@ import net.minecraftforge.fml.common.event.FMLInitializationEvent;
 import net.minecraftforge.fml.common.event.FMLPostInitializationEvent;
 import net.minecraftforge.fml.common.event.FMLPreInitializationEvent;
 import net.minecraftforge.fml.common.eventhandler.SubscribeEvent;
+import net.minecraftforge.fml.common.registry.EntityRegistry;
+
 import java.awt.Color;
 
 @Mod.EventBusSubscriber
@@ -25,7 +29,7 @@ public class CommonProxy {
     	
     	//************* REGISTER MOBS ***************
     	Codakid.registerMobEntity(CustomMonster.class, "my_monster", RenderMonsterPig.FACTORY, Color.BLACK.getRGB(), Color.PINK.getRGB());
-    	
+    	EntityRegistry.addSpawn(CustomMonster.class, 20, 0, 3, EnumCreatureType.MONSTER, Biomes.SAVANNA);
     	
     	// ************* MAKE RENDERERS ***************
     	
