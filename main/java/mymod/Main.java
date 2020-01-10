@@ -8,6 +8,7 @@ import org.apache.logging.log4j.Logger;
 
 import mymod.CodakidFiles.Codakid;
 import mymod._01_ForgeYourSword.CustomSword;
+import mymod._02_PowerOre.CustomOre;
 import net.minecraft.item.Item.ToolMaterial;
 import net.minecraftforge.common.util.EnumHelper;
 import net.minecraftforge.fml.common.Mod;
@@ -34,6 +35,11 @@ public class Main {
     //************* DECLARE VARIABLES ***************
     public static CustomSword mySword;
     public static ToolMaterial myToolMaterial;
+    public static CustomOre myOre;
+    
+    
+    
+    
     
 
 
@@ -47,6 +53,7 @@ public class Main {
     	
     	//************* INITIALIZE VARIABLES ***************
     	mySword = new CustomSword();
+    	
 
     	
     	
