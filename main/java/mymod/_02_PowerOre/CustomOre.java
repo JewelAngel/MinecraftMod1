@@ -15,6 +15,9 @@ public class CustomOre extends Block {
 	public CustomOre(){
 		
 		super(Material.ROCK);
+		this.setCreativeTab(CreativeTabs.BUILDING_BLOCKS);
+		this.setHardness(3F);
+		this.setHarvestLevel("Pickaxe", 2);
 	}
 	
 }
