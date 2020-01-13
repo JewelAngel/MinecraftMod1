@@ -20,6 +20,7 @@ public class CommonProxy {
     	//************* REGISTER BLOCKS AND ITEMS ***************
 	    Codakid.registerItem(Main.mySword, "my_sword");
 	    Codakid.registerBlock(Main.myOre, "my_ore");
+	    Codakid.registerItem(Main.myIngot, "my_ingot");
     	
     	//************* REGISTER MOBS ***************
     	
