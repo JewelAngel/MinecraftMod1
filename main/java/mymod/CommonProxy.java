@@ -10,6 +10,8 @@ import net.minecraftforge.fml.common.event.FMLInitializationEvent;
 import net.minecraftforge.fml.common.event.FMLPostInitializationEvent;
 import net.minecraftforge.fml.common.event.FMLPreInitializationEvent;
 import net.minecraftforge.fml.common.eventhandler.SubscribeEvent;
+import net.minecraftforge.fml.common.registry.GameRegistry;
+
 import java.awt.Color;
 
 @Mod.EventBusSubscriber
@@ -46,7 +48,7 @@ public class CommonProxy {
 
         
     	//************* SMELTING RECIPES ***************
-    	
+    	GameRegistry.addSmelting(Main.myOre, new ItemStack(Main.myIngot), 3.0F);
     	
     	
     	//************* BIOME SETUP ***************
