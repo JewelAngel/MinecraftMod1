@@ -1,5 +1,7 @@
 package mymod._02_PowerOre;
 
-public class CustomIngot {
+import net.minecraft.item.Item;
+
+public class CustomIngot extends Item{
 
 }
